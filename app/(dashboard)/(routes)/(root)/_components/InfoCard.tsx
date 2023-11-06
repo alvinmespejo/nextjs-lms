@@ -1,5 +1,5 @@
-import { IconBadge } from '@/components/icon-badge';
 import { LucideIcon } from 'lucide-react';
+import { IconBadge } from '@/components/icon-badge';
 
 interface IInfoCardProps {
   icon: LucideIcon;

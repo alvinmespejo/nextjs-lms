@@ -1,6 +1,6 @@
 import { auth } from '@clerk/nextjs';
-import { CheckCircle, Clock } from 'lucide-react';
 import { redirect } from 'next/navigation';
+import { CheckCircle, Clock } from 'lucide-react';
 
 import { getDashboardCourses } from '@/actions/getDashboardCourses';
 

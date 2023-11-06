@@ -1,14 +1,14 @@
 'use client';
 
+import axios from 'axios';
 import { useState } from 'react';
+import toast from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
 import { CheckCircle, XCircle } from 'lucide-react';
 
 import { useConfettiStore } from '@/hooks/useConfettiStore';
 
 import { Button } from '@/components/ui/button';
-import axios from 'axios';
-import toast from 'react-hot-toast';
 
 interface ICourseProgressButtonProps {
   chapterId: string;

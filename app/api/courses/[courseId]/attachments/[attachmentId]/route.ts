@@ -1,6 +1,6 @@
+import { auth } from '@clerk/nextjs';
 import { UTApi } from 'uploadthing/server';
 import { NextResponse } from 'next/server';
-import { auth } from '@clerk/nextjs';
 
 import { db } from '@/lib/db';
 import { isTeacher } from '@/lib/teacher';

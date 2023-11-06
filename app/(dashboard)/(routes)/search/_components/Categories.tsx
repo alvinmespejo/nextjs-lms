@@ -11,6 +11,7 @@ import {
   FcMultipleDevices,
 } from 'react-icons/fc';
 import { IconType } from 'react-icons';
+
 import { CategoryItem } from './CategoryItem';
 
 interface ICategoriesProps {

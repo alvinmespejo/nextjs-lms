@@ -1,12 +1,15 @@
-import { GetChaper } from '@/actions/getChapter';
-import { Banner } from '@/components/banner';
+import { File } from 'lucide-react';
 import { auth } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
+
+import { GetChaper } from '@/actions/getChapter';
+
+import { Banner } from '@/components/banner';
+import { Preview } from '@/components/preview';
+import { Separator } from '@/components/ui/separator';
+
 import { VideoPlayer } from './_components/VideoPlayer';
 import { CourseEnrollButton } from './_components/CourseEnrollButton';
-import { Separator } from '@/components/ui/separator';
-import { Preview } from '@/components/preview';
-import { File } from 'lucide-react';
 import { CourseProgressButton } from './_components/CourseProgressButton';
 
 const ChapterIdPage = async ({

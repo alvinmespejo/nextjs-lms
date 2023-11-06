@@ -1,7 +1,9 @@
-import { getProgress } from '@/actions/getProgress';
-import { db } from '@/lib/db';
 import { auth } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
+
+import { db } from '@/lib/db';
+import { getProgress } from '@/actions/getProgress';
+
 import { CourseSidebar } from './_components/CourseSidebar';
 import { CourseNavbar } from './_components/CourseNavbar';
 
